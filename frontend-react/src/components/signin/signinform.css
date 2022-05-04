@@ -1,0 +1,43 @@
+.form-section{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/public/images/snikkerane.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.fullscreen-form__background{
+    background-color: rgb(168, 168, 168);
+    border-radius: 0.5rem;
+    width: 35rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-style{
+    margin-top: 3rem;
+    background-color: #f16767;
+}
+
+.mantine-1w07r5r{
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #000000;
+}
+
+.header-forms-label{
+   margin: 4rem;
+}
+

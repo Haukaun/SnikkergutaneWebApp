@@ -1,11 +1,15 @@
-
+import {Routes, Route} from "react-router-dom"
+import SignInForm from "./components/signin/SignInForm";
+import "./styles/global.css"
 
 function App() {
 
 
   return (
     <div>
-        <label>Test</label>
+        <Routes>
+            <Route path="/signin" element={<SignInForm />}/>
+        </Routes>
     </div>
   );
 }
